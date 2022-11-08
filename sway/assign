@@ -1,0 +1,33 @@
+assign [class="firefox"]                                               → $ws1
+assign [app_id="firefox"]                                              → $ws1
+
+assign [app_id="Alacritty"]                                            → $ws2
+
+assign [app_id="org.kde.okular"]                                       → $ws11
+assign [app_id="org.pwmt.zathura"]                                     → $ws11
+
+assign [app_id="telegramdesktop"]                                      → $ws12
+assign [title="Telegram"]                                              → $ws12
+assign [class="Thunderbird"]                                           → $ws12
+assign [class="Signal"]                                                → $ws12
+assign [class="Skype"]                                                 → $ws12
+
+assign [app_id="cantata"]                                              → $ws13
+assign [class="Viewnior"]                                              → $ws13
+for_window [app_id="mpv"]                       move window to workspace $ws13
+
+assign [app_id="virt-manager"]                                         → $ws14
+
+for_window [class=".exe"]                       move window to workspace $ws15
+for_window [title="Winetricks"]                 move window to workspace $ws15
+for_window [title="Wine"]                       move window to workspace $ws15
+
+assign [app_id="com.obsproject.Studio"]                                → $ws16
+
+assign [app_id="org.keepassxc.KeePassXC"]                              → $ws17
+
+assign [app_id="org.qbittorrent.qBittorrent"]                          → $ws18
+
+assign [class="obsidian"]                                              → $ws19
+
+assign [app_id="org.zealdocs.zeal"]                                    → $ws20

@@ -1,0 +1,9 @@
+include ./io
+include ./autostart
+include ./workspaces
+include ./rules
+include ./focus
+include ./modes
+include ./assign
+include ./bindings
+include ./visuals
